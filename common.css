@@ -76,7 +76,7 @@ a
 {
     background-color: #deb992;
     border: none;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 5px 5px;
     font-size: 18px;
     transform: scale(1.1);
 }
@@ -191,6 +191,13 @@ button
     .menubutton
     {
         opacity: 1;
+    }
+    
+    .menubutton:hover
+    {
+        transform: none;
+        border-radius: 0px 5px 5px 0px;
+        font-size: 16px;
     }
 
     .burger
